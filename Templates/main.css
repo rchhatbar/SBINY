@@ -1,0 +1,56 @@
+#header {
+	height:200px;
+   background: linear-gradient(orange,white, white ,white, green);
+   border-style: solid;
+   border-color: white;
+   border-width: 10px; 
+   margin-left: 350px;
+   margin-right: 350px;
+   text-align: center;
+
+}
+#Info {
+	height:230px;
+	background-color: lightblue;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+	margin-left: 350px;
+    margin-right: 350px;
+    text-align: center; 
+}
+#Announcement {
+	height:200px;
+	background-color: lightblue;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px; 
+	margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+}
+#Links {
+	height:120px;
+	background-color: lightblue;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+	margin-left: 350px;
+    margin-right: 350px; 
+}
+#Footer {
+	height:70px;
+   background: linear-gradient(orange,white, white, green);
+   border-style: solid;
+   border-color: white;
+   border-width: 5px;
+   margin-left: 350px;
+   margin-right: 350px; 
+}
+
+#text {
+	position: relative;
+	z-index: 1;
+	background-image: url("Images/back.png");
+	background-size: 50px;
+}
