@@ -3,9 +3,10 @@ express = require('express'),
 app = express().use(express.static(__dirname + '/')),
 http = require('http').Server(app),
 io = require('socket.io')(http);
+app.use(express.static(__dirname));
  
 app.use('/', function(req, res){
-    res.sendFile(__dirname + '/sbi.html');
+    res.sendFile(__dirname + '/templates/sbi.html');
 });
 
  

@@ -1,4 +1,4 @@
-#header {
+.header {
 	height:200px;
    background: linear-gradient(orange,white, white ,white, green);
    border-style: solid;
@@ -7,9 +7,10 @@
    margin-left: 350px;
    margin-right: 350px;
    text-align: center;
+   font-family: Calibri;
 
 }
-#Info {
+.Info {
 	height:230px;
 	background-color: lightblue;
 	border-style: solid;
@@ -17,9 +18,10 @@
 	border-width: 5px;
 	margin-left: 350px;
     margin-right: 350px;
-    text-align: center; 
+    text-align: center;
+    font-family: Calibri; 
 }
-#Announcement {
+.Announcement {
 	height:200px;
 	background-color: lightblue;
 	border-style: solid;
@@ -28,35 +30,51 @@
 	margin-left: 350px;
     margin-right: 350px;
     text-align: center;
+    font-family: Calibri;
 }
-#Links {
+.Links {
 	height:120px;
 	background-color: lightblue;
 	border-style: solid;
 	border-color: white;
 	border-width: 5px;
 	margin-left: 350px;
-    margin-right: 350px; 
+    margin-right: 350px;
+    font-family: Calibri; 
+    text-align: center;
 }
-#Footer {
+.Footer {
 	height:70px;
    background: linear-gradient(orange,white, white, green);
    border-style: solid;
    border-color: white;
    border-width: 5px;
    margin-left: 350px;
-   margin-right: 350px; 
+   margin-right: 350px;
+   font-family: Calibri; 
 }
 
-#text {
-	position: relative;
+.Links .txt {
+	background-image: url(Images/back.png);
+    position: relative;
 	z-index: 1;
-	background-image: url("Images/back.png");
-	background-size: 50px;
+	font-family: Calibri;
+	height: 20px;
+	width: 100px;
+	margin-left: 5px;
+	float: left;
+	text-align: center;
 }
 
-table, th, td {
-	width: 100%; 
-	border: 1px solid black; 
-	border-collapse: collapse;
+
+#font_flag_lin {
+	background: -webkit-linear-gradient(orange, white, green); 
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent; 
+}
+
+#font_flag_dia {
+	background: -webkit-linear-gradient(left top, orange, white, green);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }

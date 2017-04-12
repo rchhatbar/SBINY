@@ -5,47 +5,65 @@
 	<link rel="stylesheet" type="text/css" href="CSS/main.css">
 </head>
 
-<body>
+<body >
 
-<div id="header">
-		<font size="6" color="purple" style="margin-top: 5px">State Bank of India</font>
-		<img id="sbilogo" style="height:70px" align="center" src="Images\flag_sbilogo.png" alt="image error"/>
+<div class="header">
+		<font size="6" color="purple" style="margin-top: 5px">State Bank of India</font><br><br>
+		<img id="sbilogo" style="height:70px" align="center" src="Images/flag_sbilogo.png" alt="image error"/><br><br>
 		<font size="6" color="purple">New York</font>
 </div>
 
-<div id="Info">
+<div class="Info">
 	
 	<p>
-		<font size="6" style="background: -webkit-linear-gradient(orange, white, green); -webkit-background-clip: text; -webkit-text-fill-color: transparent; ">Indian Day Raffles </font><br>
+		<font size="6" id="font_flag_lin">Indian Day Raffles </font><br>
 		<font size="5" color="white">Win Fabulous Prizes <br> </font>
 		<font size="5" style="background: -webkit-linear-gradient(white, green); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">	
-		The lucky First gets a Return Flight <br>
+		The lucky First gets a Return Flight </font><br>
+		<font size="5" style="background: -webkit-linear-gradient(white, green); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
 		From New York to India
 		</font> <br>
-		<font>*Conditions Apply (Enter to Read) </font><br>
-		<a href="sbi_enter_raffle.html" target="_self">Enter Raffles</a>
+		<font style="margin-top: 10px">*Conditions Apply (Enter to Read) </font><br>
+		<input type="submit" name="Enter Raffles" onclick="/Templates/sbi_enter_raffle.html" value="Enter Raffle" style="background-image: url(Images/back.png); width: 90%; height: 40px; margin-top: 20px; -webkit-text-fill-color: purple; font-size: 25px">
 
 	</p>
 
 </div>
 
-<div id="Announcement">
-	<P>
-		<font size="6"> The Happy News for You </font><br>
+<div class="Announcement">
+	<div>
+		<font size="6" id="font_flag_dia"> The Happy News for You </font>
+	</div>
+	<div style="text-decoration-color: white">
 		<font size="4.5">Fee Free Indian Rupee Remittances <br>
 		Zero Balance Checking Accounts </font><br>
-		<p id="text">Open Checking Account Online <br> @ www.statebank.com</p>
-	</P>
+	</div>	
+	<div style="background-image: url(Images/back.png); background-size: 20px; background-position: 90%;">	
+		<font color="purple"> Open Checking Account Online <br> @ </font> www.statebank.com
+	</div>
 </div>
 
-<div id="Links">
-	<p>
+<div class="Links">
+	<font id="font_flag_dia" size="6">
 		More Services
-
-	</p>
+	</font>
+	<div style="background-image: url(Images/back.png); background-size: 20px">
+		<div class="txt" >
+			Trade <br> Finance
+		</div>
+		<div class="txt">
+			Business <br> Credit
+		</div>
+		<div class="txt">
+			Certificate <br> of Deposits
+		</div>
+		<div class="txt">
+			Money <br> Market A/c
+		</div>
+	</div>
 </div>
 
-<div id="Footer">
+<div class="Footer">
 	<p>
 		460 Park Avenue, New York - 10022 <br>
 		Email: sbi.nyb@statebank.com <br>
